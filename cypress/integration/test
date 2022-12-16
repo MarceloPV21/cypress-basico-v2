@@ -1,0 +1,1210 @@
+
+{
+  "cart": {
+    "items": {
+      "47868ef1-edcc-443d-9d5f-0c4de4196e8f": {
+        "id": "47868ef1-edcc-443d-9d5f-0c4de4196e8f",
+        "category": "MOBILITY_SIM",
+        "productOffering": {
+          "id": "TTRISIM",
+          "type": "simProductCd",
+          "tierId": "32",
+          "displayName": "SIM Card"
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": []
+        },
+        "items": [],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "promotions": [],
+        "tags": [],
+        "financeDetails": []
+      },
+      "de8cf730-1b60-48a1-9326-6979de55c3ce": {
+        "id": "de8cf730-1b60-48a1-9326-6979de55c3ce",
+        "category": "MOBILITY_PHONE",
+        "productOffering": {
+          "id": "LAIP14PM128PU",
+          "type": "handsetProductCd",
+          "tierId": "32",
+          "characteristics": [
+            {
+              "name": "colour",
+              "value": "#ACC1D7",
+              "displayValue": "Sierra Blue",
+              "displayName": "Colour"
+            },
+            {
+              "name": "imageUrl",
+              "displayValue": "iPhone 14 Pro Max - 128GB - Deep Purple - Catalog",
+              "value": "//images.ctfassets.net/evnrpfa1vdk4/3XWfFExCC9BLq5yUmEnwTT/1445fb2838e8122455e5d9f6cd153345/CAT_iphone14ProMax_purple_Preorder_EN-nobg__1_.png"
+            }
+          ],
+          "displayName": "iPhone 14 Pro Max",
+          "shippingSla": ""
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [
+            {
+              "amount": 1593,
+              "taxes": [
+                {
+                  "type": "PST",
+                  "rate": 7,
+                  "amount": 111.51
+                },
+                {
+                  "type": "GST",
+                  "rate": 5,
+                  "amount": 79.65
+                }
+              ],
+              "alterations": [
+                {
+                  "name": "bringItBackAmount",
+                  "type": "bringItBackAmount",
+                  "category": "CREDIT",
+                  "amount": 590,
+                  "tags": []
+                },
+                {
+                  "name": "financedAmount",
+                  "type": "financedAmount",
+                  "category": "CREDIT",
+                  "amount": 480,
+                  "tags": []
+                }
+              ]
+            }
+          ],
+          "recurring": [
+            {
+              "amount": 20,
+              "taxes": [],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 24,
+              "alterations": []
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 1593,
+            "discount": 0,
+            "subTotal": 1593,
+            "taxes": [
+              {
+                "type": "PST",
+                "rate": 7,
+                "amount": 111.51
+              },
+              {
+                "type": "GST",
+                "rate": 5,
+                "amount": 79.65
+              }
+            ],
+            "total": 1784.16,
+            "credit": 1070
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "amount": 20,
+                  "discount": 0,
+                  "subTotal": 20,
+                  "taxes": [],
+                  "total": 20
+                }
+              ],
+              "recurringCreditBreakdowns": []
+            }
+          ]
+        },
+        "items": [],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "promotions": [],
+        "tags": [
+          "phone"
+        ],
+        "system": {
+          "contentfulEntryId": "2FybI7swLTYHBwhEzvJ7Vt",
+          "analyticsName": "iPhone 14 Pro Max (128 GB)"
+        },
+        "financeDetails": []
+      },
+      "7f4f2b8c-1aef-4ecf-aaf3-300effbc8c2f": {
+        "id": "7f4f2b8c-1aef-4ecf-aaf3-300effbc8c2f",
+        "category": "MOBILITY_PLAN",
+        "productOffering": {
+          "id": "POM100G95",
+          "type": "pricePlanCode",
+          "tierId": "32",
+          "displayName": "100 GB unlimited data"
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": [
+            {
+              "amount": 95,
+              "taxes": [
+                {
+                  "type": "HST",
+                  "rate": 0,
+                  "amount": 0
+                },
+                {
+                  "type": "PST",
+                  "rate": 7,
+                  "amount": 6.65
+                },
+                {
+                  "type": "GST",
+                  "rate": 5,
+                  "amount": 4.75
+                }
+              ],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 24,
+              "alterations": [
+                {
+                  "promotionId": "1165454",
+                  "name": "Recurring Bill Credit $10 for 24 Months",
+                  "category": "CREDIT",
+                  "amount": 11.2,
+                  "tags": [],
+                  "recurringDuration": 24
+                }
+              ]
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "taxes": [],
+            "total": 0,
+            "credit": 0
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "amount": 95,
+                  "discount": 0,
+                  "subTotal": 95,
+                  "taxes": [],
+                  "total": 95
+                }
+              ],
+              "recurringCreditBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "credit": 11.2
+                }
+              ]
+            }
+          ]
+        },
+        "items": [],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "promotions": [],
+        "tags": [],
+        "system": {
+          "analyticsName": "100 GB unlimited data"
+        },
+        "financeDetails": []
+      },
+      "a71576ee-78d2-4e90-8e08-d7ffe03f422b": {
+        "id": "a71576ee-78d2-4e90-8e08-d7ffe03f422b",
+        "category": "MOBILITY_PLAN_ADD_ON",
+        "productOffering": {
+          "displayName": "One time SIM Card Fee",
+          "id": "SIMACCN10",
+          "type": "serviceCode",
+          "tierId": "32"
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": [
+            {
+              "amount": 10,
+              "taxes": [],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 1,
+              "alterations": []
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "taxes": [],
+            "total": 0,
+            "credit": 0
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 1,
+                  "amount": 10,
+                  "discount": 0,
+                  "subTotal": 10,
+                  "taxes": [],
+                  "total": 10
+                }
+              ],
+              "recurringCreditBreakdowns": []
+            }
+          ]
+        },
+        "items": [],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "promotions": [],
+        "tags": [],
+        "financeDetails": []
+      },
+      "64ef03b4-26d3-4104-a2b3-10f1772f73c1": {
+        "id": "64ef03b4-26d3-4104-a2b3-10f1772f73c1",
+        "category": "MOBILITY_PLAN_ADD_ON",
+        "productOffering": {
+          "displayName": "Easy Roam INTL- PayPerUse Access On",
+          "characteristics": [
+            {
+              "name": "featureCategory",
+              "value": "EASYROAM"
+            }
+          ],
+          "id": "SERINTAC",
+          "type": "serviceCode",
+          "tierId": "32"
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": [
+            {
+              "amount": 0,
+              "taxes": [],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 0,
+              "alterations": []
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "taxes": [],
+            "total": 0,
+            "credit": 0
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 0,
+                  "amount": 0,
+                  "discount": 0,
+                  "subTotal": 0,
+                  "taxes": [],
+                  "total": 0
+                }
+              ],
+              "recurringCreditBreakdowns": []
+            }
+          ]
+        },
+        "items": [],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "promotions": [],
+        "tags": [],
+        "financeDetails": []
+      },
+      "36bbd87a-73b1-4648-b316-448391192779": {
+        "id": "36bbd87a-73b1-4648-b316-448391192779",
+        "category": "MOBILITY_CONNECTION_FEE",
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": [
+            {
+              "amount": 0,
+              "taxes": [
+                {
+                  "type": "HST",
+                  "rate": 0,
+                  "amount": 0
+                },
+                {
+                  "type": "PST",
+                  "rate": 7,
+                  "amount": 0
+                },
+                {
+                  "type": "GST",
+                  "rate": 5,
+                  "amount": 0
+                }
+              ],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 1,
+              "alterations": []
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "taxes": [],
+            "total": 0,
+            "credit": 0
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 1,
+                  "amount": 0,
+                  "discount": 0,
+                  "subTotal": 0,
+                  "taxes": [],
+                  "total": 0
+                }
+              ],
+              "recurringCreditBreakdowns": []
+            }
+          ]
+        },
+        "items": [],
+        "action": "ADD",
+        "promotions": [],
+        "tags": [],
+        "financeDetails": [],
+        "content": {
+          "value": "50"
+        }
+      },
+      "40726428-10dd-4abb-a899-489ebec5b29d": {
+        "id": "40726428-10dd-4abb-a899-489ebec5b29d",
+        "category": "MOBILITY_WARRANTY",
+        "productOffering": {
+          "id": "AC_PLUS_TIER5",
+          "type": "WARRANTY_CODE",
+          "displayName": "Apple Care + Tier 5"
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": [
+            {
+              "amount": 15,
+              "taxes": [
+                {
+                  "type": "HST",
+                  "rate": 0,
+                  "amount": 0
+                },
+                {
+                  "type": "PST",
+                  "rate": 7,
+                  "amount": 1.05
+                },
+                {
+                  "type": "GST",
+                  "rate": 5,
+                  "amount": 0.75
+                }
+              ],
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringDuration": 0,
+              "alterations": []
+            }
+          ]
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "taxes": [],
+            "total": 0,
+            "credit": 0
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 0,
+                  "amount": 15,
+                  "discount": 0,
+                  "subTotal": 15,
+                  "taxes": [],
+                  "total": 15
+                }
+              ],
+              "recurringCreditBreakdowns": []
+            }
+          ]
+        },
+        "contractTerm": {
+          "period": {
+            "every": 1,
+            "unit": "MONTH"
+          },
+          "duration": 0
+        },
+        "items": [],
+        "action": "ADD",
+        "promotions": [],
+        "tags": [],
+        "system": {
+          "planCode": "285",
+          "providerCode": "APL",
+          "socCode": "SAPPCA15",
+          "warrantyId": "121"
+        },
+        "financeDetails": []
+      },
+      "7e2b0fcc-8898-4211-a7bc-804f1a69688b": {
+        "id": "7e2b0fcc-8898-4211-a7bc-804f1a69688b",
+        "category": "MOBILITY_OFFER",
+        "productOffering": {
+          "id": "1089262",
+          "type": "marketOfferId",
+          "tierId": "32",
+          "displayName": "Low Monthly "
+        },
+        "quantity": 1,
+        "itemPrice": {
+          "oneTime": [],
+          "recurring": []
+        },
+        "totalPrice": {
+          "oneTime": {
+            "amount": 1593,
+            "discount": 0,
+            "subTotal": 1593,
+            "taxes": [
+              {
+                "type": "PST",
+                "rate": 7,
+                "amount": 111.51
+              },
+              {
+                "type": "GST",
+                "rate": 5,
+                "amount": 79.65
+              }
+            ],
+            "total": 1784.16,
+            "credit": 1070
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 1,
+                  "amount": 140,
+                  "discount": 0,
+                  "subTotal": 140,
+                  "taxes": [],
+                  "total": 140
+                },
+                {
+                  "start": 2,
+                  "duration": 23,
+                  "amount": 130,
+                  "discount": 0,
+                  "subTotal": 130,
+                  "taxes": [],
+                  "total": 130
+                },
+                {
+                  "start": 25,
+                  "duration": 0,
+                  "amount": 15,
+                  "discount": 0,
+                  "subTotal": 15,
+                  "taxes": [],
+                  "total": 15
+                }
+              ],
+              "recurringCreditBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "credit": 11.2
+                }
+              ]
+            }
+          ]
+        },
+        "contractTerm": {
+          "recurringPeriod": {
+            "every": 1,
+            "unit": "MONTH"
+          },
+          "recurringDuration": 24,
+          "minimumServiceCommitment": 24
+        },
+        "items": [
+          "47868ef1-edcc-443d-9d5f-0c4de4196e8f",
+          "de8cf730-1b60-48a1-9326-6979de55c3ce",
+          "7f4f2b8c-1aef-4ecf-aaf3-300effbc8c2f",
+          "a71576ee-78d2-4e90-8e08-d7ffe03f422b",
+          "64ef03b4-26d3-4104-a2b3-10f1772f73c1",
+          "36bbd87a-73b1-4648-b316-448391192779",
+          "40726428-10dd-4abb-a899-489ebec5b29d"
+        ],
+        "action": "ADD",
+        "provisioner": "ESS",
+        "fulfillment": {
+          "method": "SHIPMENT",
+          "deferPayment": false,
+          "inStorePickupEligible": false
+        },
+        "productOrder": {
+          "type": "ACTIVATION",
+          "subType": "NEW"
+        },
+        "account": {
+          "type": "I",
+          "subType": "R"
+        },
+        "flags": {
+          "bringItBack": true,
+          "portIn": false,
+          "tradeIn": false
+        },
+        "promotions": [
+          "1165454",
+          "1145493"
+        ],
+        "tags": [],
+        "system": {
+          "ngcVersion": "2",
+          "essCartId": "20177005512",
+          "essItemId": "ES2177741449",
+          "lastValidated": "2022-12-14T18:23:05.630Z",
+          "essValidationDate": "2022-12-14T18:23:05.630Z",
+          "salesTransactionId": "20221214132153086672bd2f8af92428a90ffaeb00a25bbd1",
+          "sku": "LAIP14PM128PU",
+          "editUrl": "https://www.wcstage.telus.com/mobility/configure/?product=iphone-14-pro-max&sessionFlow=consumer&linkname=Phones&linktype=ge-meganav&INTCMP=tcom_mob_catalogue_to_iphone14promax&sku=NLAIP14PM128PU",
+          "manualFlow": true,
+          "manualFlowReasons": [
+            "Order Type manual for this segment.",
+            "Order type manual for devices over $800 in this segment.",
+            "Item added as manual"
+          ],
+          "timeAdded": "2022-12-14T18:23:05.918Z",
+          "stxIdRefreshedTime": "2022-12-14T18:23:05.918Z",
+          "perspectiveDate": "2022-12-14T17:26:02.000Z"
+        },
+        "financeDetails": []
+      }
+    },
+    "promotions": {
+      "1145493": {
+        "id": "1145493",
+        "displayName": "One time SIM Card Fee"
+      },
+      "1165454": {
+        "id": "1165454",
+        "displayName": "Recurring Bill Credit of $10 for 24 Months ($85+ ROC, $75+ MB/SK) - (NON-MNH Only)"
+      }
+    },
+    "root": {
+      "realId": "47cb4b46-bd21-4368-8179-7a0df70df86a",
+      "language": "en",
+      "province": "BC",
+      "market": {
+        "type": "PERSONAL"
+      },
+      "customer": {
+        "mobility": {
+          "type": "I",
+          "subType": "R",
+          "segment": "REGULAR"
+        },
+        "hs": {
+          "hasPendingOrder": false
+        }
+      },
+      "customerType": "CONSUMER",
+      "provisioners": [
+        "ESS"
+      ],
+      "eligibleFulfillmentMethods": [
+        "ONLINE_SHIPMENT"
+      ],
+      "items": [
+        "7e2b0fcc-8898-4211-a7bc-804f1a69688b"
+      ],
+      "promotions": [],
+      "totalPrices": [
+        {
+          "oneTime": {
+            "amount": 1593,
+            "discount": 0,
+            "subTotal": 1593,
+            "taxes": [
+              {
+                "type": "PST",
+                "rate": 7,
+                "amount": 111.51
+              },
+              {
+                "type": "GST",
+                "rate": 5,
+                "amount": 79.65
+              }
+            ],
+            "total": 1784.16,
+            "credit": 1070
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 1,
+                  "amount": 140,
+                  "discount": 0,
+                  "subTotal": 140,
+                  "taxes": [],
+                  "total": 140
+                },
+                {
+                  "start": 2,
+                  "duration": 23,
+                  "amount": 130,
+                  "discount": 0,
+                  "subTotal": 130,
+                  "taxes": [],
+                  "total": 130
+                },
+                {
+                  "start": 25,
+                  "duration": 0,
+                  "amount": 15,
+                  "discount": 0,
+                  "subTotal": 15,
+                  "taxes": [],
+                  "total": 15
+                }
+              ],
+              "recurringCreditBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "credit": 11.2
+                }
+              ]
+            }
+          ],
+          "category": "MOBILITY_TOTAL"
+        },
+        {
+          "category": "HS_TOTAL"
+        },
+        {
+          "oneTime": {
+            "amount": 1593,
+            "discount": 0,
+            "subTotal": 1593,
+            "taxes": [
+              {
+                "type": "PST",
+                "rate": 7,
+                "amount": 111.51
+              },
+              {
+                "type": "GST",
+                "rate": 5,
+                "amount": 79.65
+              }
+            ],
+            "total": 1784.16,
+            "credit": 1070
+          },
+          "recurring": [
+            {
+              "recurringPeriod": {
+                "every": 1,
+                "unit": "MONTH"
+              },
+              "recurringBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 1,
+                  "amount": 140,
+                  "discount": 0,
+                  "subTotal": 140,
+                  "taxes": [],
+                  "total": 140
+                },
+                {
+                  "start": 2,
+                  "duration": 23,
+                  "amount": 130,
+                  "discount": 0,
+                  "subTotal": 130,
+                  "taxes": [],
+                  "total": 130
+                },
+                {
+                  "start": 25,
+                  "duration": 0,
+                  "amount": 15,
+                  "discount": 0,
+                  "subTotal": 15,
+                  "taxes": [],
+                  "total": 15
+                }
+              ],
+              "recurringCreditBreakdowns": [
+                {
+                  "start": 1,
+                  "duration": 24,
+                  "credit": 11.2
+                }
+              ]
+            }
+          ],
+          "category": "TOTAL"
+        }
+      ],
+      "order": [
+        {
+          "category": "HS",
+          "system": {},
+          "shippingAddresses": []
+        }
+      ],
+      "messages": {
+        "hs": [],
+        "mobility": []
+      },
+      "system": {},
+      "validationErrors": [],
+      "id": "9e3cac32-53cf-4cea-961b-8c97e464a603",
+      "cartType": "MOBILITY"
+    }
+  },
+  "customer": {
+    "digitalId": "1f88c065-b77e-4016-b00f-d6895e420e99",
+    "profile": {
+      "userName": "",
+      "firstName": "John Biggs",
+      "lastName": "Smalls",
+      "email": "e2eTosSimpleSetUpTc8@telusinternal.com",
+      "emailStatusCd": "valid",
+      "emailAddressValidateDate": 1660672485000,
+      "lastLoginDate": 1671042000000,
+      "lastPasswordChangeDate": 1660672485000,
+      "language": "en",
+      "pin": "",
+      "servicePhoneNum": "9999999999",
+      "birthDate": 0,
+      "profileUUID": "e4022c40-70ad-4d7d-bb2b-1256db325eb0",
+      "billingPreference": "paper"
+    },
+    "addresses": [
+      {
+        "type": "service",
+        "unitNumber": "417",
+        "streetNumber": "200",
+        "streetName": "BELLEROSE DR",
+        "streetDirection": "",
+        "streetSuffix": "",
+        "provinceCode": "AB",
+        "city": "ST ALBERT",
+        "postalCode": "",
+        "fullAddress": "",
+        "locationId": null,
+        "fmsId": "",
+        "coordinates": {
+          "longitude": 0,
+          "latitude": 0
+        },
+        "unitType": "",
+        "countryCode": "CAN",
+        "detailsFetched": false,
+        "addressDetails": {
+          "availabilities": {
+            "compass": {
+              "apartment": "",
+              "gponFlag": false,
+              "etts": false,
+              "coId": "",
+              "targetClli": "",
+              "internetProducts": [],
+              "qualified": [],
+              "disqualified": [],
+              "undetermined": [],
+              "unsure": []
+            },
+            "fifa": {
+              "coId": "",
+              "fsaId": "",
+              "fsaStatus": "",
+              "fsaReadyDate": 0,
+              "dropStatus": false,
+              "dropPermissionReceived": false,
+              "dropType": "",
+              "buildingType": "",
+              "roeStatus": "",
+              "plannedEstimate": "",
+              "mapStatus": "",
+              "mapOverride": false,
+              "gponOverride": false,
+              "source": "",
+              "mapQueryResults": {}
+            },
+            "recommendedStack": ""
+          },
+          "feasibility": {}
+        },
+        "hash": "b9ccc2b231f979b93f1598de83fde245"
+      }
+    ],
+    "bans": [
+      {
+        "accountOwner": {
+          "firstName": "TRACIE",
+          "lastName": "JUDGE-ZZ"
+        },
+        "type": "ffh",
+        "customerId": "31065166",
+        "ban": "208720396",
+        "checkDigit": "7",
+        "typeCd": "R",
+        "tqFifaInd": false,
+        "subTypeCd": "I",
+        "billingAddressHash": "",
+        "accountStatusCd": "",
+        "accountStatusReasonCd": "",
+        "inTreatmentInd": false,
+        "paymentDueDate": "",
+        "billDeliveryPreference": {},
+        "banStatus": "open",
+        "encryptedAccountId": "AxbTzCAa1PRM1Dv7pcQMhw",
+        "unifiedBanStatus": "OPEN",
+        "activationDate": "",
+        "products": [
+          {
+            "type": "ffh",
+            "name": "",
+            "productId": "1211447155",
+            "planDescription": "OTT- primary price plan",
+            "productTypeCd": "DIIC",
+            "statusCd": "I",
+            "productBillingId": "0",
+            "equipmentSerialNumber": "",
+            "subscriberName": {},
+            "serviceAddressHash": "b9ccc2b231f979b93f1598de83fde245",
+            "serviceStartDate": 1664236800000,
+            "falconInd": true,
+            "tvxInd": false,
+            "epcComponents": [],
+            "productDetails": {
+              "catalogId": "",
+              "productName": "",
+              "grandfatherInd": "",
+              "chargeAmt": "",
+              "status": {},
+              "quota": {}
+            },
+            "detailsFetched": false,
+            "activationDt": "",
+            "provinceCd": "",
+            "eSub": ""
+          },
+          {
+            "type": "ffh",
+            "name": "",
+            "productId": "1103586344",
+            "planDescription": "TELUS Internet 15",
+            "productTypeCd": "HSIC",
+            "statusCd": "I",
+            "productBillingId": "1002743086",
+            "equipmentSerialNumber": "",
+            "subscriberName": {},
+            "serviceAddressHash": "b9ccc2b231f979b93f1598de83fde245",
+            "serviceStartDate": 1541635200000,
+            "falconInd": true,
+            "tvxInd": false,
+            "epcComponents": [],
+            "productDetails": {
+              "catalogId": "",
+              "productName": "",
+              "grandfatherInd": "",
+              "chargeAmt": "",
+              "status": {},
+              "quota": {}
+            },
+            "detailsFetched": false,
+            "activationDt": "",
+            "provinceCd": "",
+            "eSub": ""
+          }
+        ],
+        "billingProfile": {
+          "cycle": {
+            "endDate": 1672722000000,
+            "startDate": 1670130000000,
+            "daysElapsed": 11,
+            "daysInCycle": 31,
+            "billCycleCd": 4
+          },
+          "paymentMethodCd": "bankaccount"
+        },
+        "businessProfile": {
+          "rcid": "",
+          "cbucid": "",
+          "dataSourceId": 0
+        },
+        "sharingGroupSummary": {
+          "isFetched": false,
+          "sharingGroups": []
+        },
+        "eBan": "Rni6BBiCetGFbJLxiTb4xg"
+      }
+    ],
+    "permissions": [
+      {
+        "type": "ffhOwner",
+        "businessObjList": [
+          {
+            "permissionId": "23855087",
+            "ban": "208720396",
+            "customerId": "31065166"
+          }
+        ]
+      }
+    ],
+    "creditProfile": {
+      "creditCheckConsent": false,
+      "personalIds": []
+    },
+    "linkedUUID": "1ed683e3-2762-429c-bf6a-fb5db6810bce",
+    "rewardsInfo": {
+      "banList": {
+        "AxbTzCAa1PRM1Dv7pcQMhw": {
+          "banStatus": "open",
+          "typeCd": "R",
+          "subTypeCd": "I",
+          "type": "ffh",
+          "ban": "208720396",
+          "rewardsEligible": "000005",
+          "activeProducts": [
+            "HSIC"
+          ],
+          "promotionCount": 0,
+          "aimiaAccountStatus": "",
+          "isMobilityConsolidated": false,
+          "promotionalMemberGroups": [],
+          "inBonusEligibleGroup": false,
+          "inChoiceRewardEligibleGroup": false
+        }
+      },
+      "hasValidEmail": "valid",
+      "emailLength": 38,
+      "banWirelessCount": 0,
+      "eligibleEbans": [],
+      "firstName": "test",
+      "lastName": "test",
+      "signature": "413d9e54979a007da6aa4e615a7d953028052e83e9e9740f58dd2874fb2f82ae",
+      "errorList": [
+        {
+          "call": "memberTierPromises",
+          "type": "raised",
+          "eban": "AxbTzCAa1PRM1Dv7pcQMhw",
+          "err": "return code: 'undefined'."
+        },
+        {
+          "call": "memberCustomStringsPromises",
+          "type": "raised",
+          "eban": "AxbTzCAa1PRM1Dv7pcQMhw",
+          "err": "return code: 'undefined'."
+        },
+        {
+          "call": "promotionsPromises",
+          "type": "raised",
+          "eban": "AxbTzCAa1PRM1Dv7pcQMhw",
+          "err": "return code: 'undefined'."
+        },
+        {
+          "call": "memberEmailPromises",
+          "type": "raised",
+          "eban": "AxbTzCAa1PRM1Dv7pcQMhw",
+          "err": "return code: '5000'. Email length: -1"
+        },
+        {
+          "call": "termsAndConditionsPromises",
+          "type": "raised",
+          "eban": "AxbTzCAa1PRM1Dv7pcQMhw",
+          "code": [
+            "AUAPI_CODE-5000",
+            "202F0003",
+            "202F0102",
+            "20290300",
+            "20030002"
+          ],
+          "err": "errorCodes: 'AUAPI_CODE-5000,202F0003,202F0102,20290300,20030002'."
+        }
+      ]
+    }
+  },
+  "featureFlags": {
+    "driversLicenseValidations": false,
+    "abTestsAreRunning": true,
+    "csaDeliveryMethod": false,
+    "checkoutOmni": true,
+    "emailCart": true,
+    "removeLobParam": true,
+    "checkoutC2f": true,
+    "psbContinueShopping": true,
+    "goBackCta": true,
+    "telusRewards": true,
+    "selfInstallFlow": true,
+    "useConnectedDevicePhysicalSize": true,
+    "personalizedPromoBlocks": true,
+    "priceSummaryBoxLobSplitting": true,
+    "useUnifiedLinkToGoBackToCart": true,
+    "mhNewCustomer": true,
+    "mhNewSbsCustomer": true,
+    "mhExistingCustomer": false,
+    "mhExistingSbsCustomer": false,
+    "regAtCheckoutTY": true,
+    "cartOrbit": true,
+    "showOTPEmailVerificationOption": true,
+    "digitalWallet": false,
+    "enableGigInternetPlanOffer": true,
+    "sbsAppointment": true,
+    "pikTvServiceInformation": false,
+    "shsServiceInformation": false,
+    "enableValueProps": true,
+    "digitalWalletExpired": false,
+    "digitalWalletAddNewCard": false,
+    "leanCheckout": true,
+    "enableCodeRedemption": true,
+    "showAppliedPromoCodeDetails": true,
+    "useCanadaPostFromBff": true,
+    "businessConnect": true,
+    "enableSmarthubDynamicContent": true,
+    "enableSmarthubUngroupedDiscounts": true,
+    "isTosPartnershipEnabled": true,
+    "newMobilityGiftsDesign": false,
+    "enableEmailYourCartForMh": true,
+    "enableEmailYourCartForHs": true,
+    "redirectToV2": true,
+    "lwcMigration": true
+  },
+  "emailYourCartPhase3Flags": {
+    "internetFifaEyc3": false,
+    "tosEyc3": false,
+    "homePhoneEyc3": false,
+    "smartHubEyc3": true,
+    "optikTvEyc3": false,
+    "shsEyc3": true,
+    "consumerMnHEyc3": true,
+    "lwcEyc3": false,
+    "sbsShsEyc3": false,
+    "swsEyc3": false
+  },
+  "operationalFlags": {
+    "checkout_splash_page": false,
+    "hSCallAgentBanner": true,
+    "hsFireFly": true,
+    "StreamPlusActivationNumber": true,
+    "tosBreach": true,
+    "hideCreditCheck": true,
+    "hsRTCA": true,
+    "TelusOnlineSecurityServiceInformation": true,
+    "microFrontEndThankYou": false,
+    "avs_mobility": "AND",
+    "avs_standalone_accessories": "OR"
+  }
+}
