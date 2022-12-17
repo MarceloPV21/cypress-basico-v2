@@ -1,22 +1,34 @@
 ///<reference types="Cypress" /> 
+
+
+
 // This command above is usefull to allow autocomplete
 
 
 
 describe('Call center TAT', function() {
     
+    const THREE_SECONDS_IN_MS = 3000
+
     beforeEach(() => {
         cy.visit('./src/index.html')
     })
     
-    it('Check application title', function() {
-      
-        cy.title().should('eq', 'Central de Atendimento ao Cliente TAT')
+    
+    Cypress._.times(3, function(){
+        it('Check application title', function() {
         
+        
+            cy.title().should('eq', 'Central de Atendimento ao Cliente TAT')
+            
+        })
     })
+    
 
 
     it('Fill required fields and send the form', function(){
+        
+        cy.clock() //Freeze clock
 
         cy.get("#firstName").type("Test")
         cy.get("#lastName").type("Lastname")
@@ -24,8 +36,11 @@ describe('Call center TAT', function() {
         cy.get("#open-text-area").type("Random text here asidjaodiasidjasiodiasdoijaiodjaosijdaoisjdoiasijdiaosjdioasjdasi", { delay: 0 })
         //cy.get(".button").click()  Getting by class
         //cy.get('button[type="submit"]').click() // Getting by type
+       
         cy.contains('button', 'Env').click() // Example replacing get by contains
         cy.get(".success").should('be.visible')
+        cy.tick(THREE_SECONDS_IN_MS)
+        cy.get(".success").should('not.be.visible')
 
     })
 
@@ -182,14 +197,78 @@ describe('Call center TAT', function() {
     })
 
    
+    it('Show and hide success and error messages using .invoke', () =>{
+        cy.get('.success')
+            .should('not.be.visible')
+            .invoke('show')
+            .should('be.visible')
+            .and('contain', 'Mensagem enviada com sucesso.')
+            .invoke('hide')
+            .should('not.be.visible')
+        cy.get('.error')
+            .should('not.be.visible')
+            .invoke('show')
+            .should('be.visible')
+            .and('contain', 'Valide os campos obrigatórios!')
+            .invoke('hide')
+            .should('not.be.visible')
+    })
+
+    it('Fill text area using invoke command',() =>{
+
+        const longText = Cypress._.repeat('0123456789', 20)
+
+        cy.get('#open-text-area')
+            .invoke('val', longText)
+            .should('have.value', longText)
+
+    })
+
+    it('Make http request', ()=>{
+
+
+        /* First way 
+        cy.request({
+            method: 'GET',
+            url: 'https://cac-tat.s3.eu-central-1.amazonaws.com/index.html'
+        }).should((response) => {
+            console.log(response)
+            expect(response.status).to.equal(200)
+            expect(response.statusText).to.equal('OK')
+            expect(response.body).contain('CAC TAT')
+        })
+        */
+
+        // Other way using object destructuring
+        cy.request('https://cac-tat.s3.eu-central-1.amazonaws.com/index.html')
+            .should(function(response) {
+            console.log(response)
+            const { status, statusText, body } = response //object destructuring
+            expect(response.status).to.equal(200)
+            expect(response.statusText).to.equal('OK')
+            expect(response.body).to.include('CAC TAT')
+        })
+
+        })
+
+
+      it.only('Find the cat', () =>{
+
+            cy.get('#cat')
+                .should('not.be.visible')
+                .invoke('show')
+                .should('be.visible')
+            cy.get('#title')
+                .invoke('text', 'DOG TAT')
+          
+      
+
+        })
+
+      })  
 
 
 
-        
 
 
 
-
-
-
-})
